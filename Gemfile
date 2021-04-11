@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 6.0.3'
-
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 gem 'browser'
 gem 'pg', '~>1.2.3'
 # Using forked copy until https://github.com/metaskills/less-rails-bootstrap/pull/132 is merged
